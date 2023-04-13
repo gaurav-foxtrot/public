@@ -1,0 +1,55 @@
+li {
+  position: relative;
+  float: left;
+  margin: 10px;
+  /* border-left: 6px solid green; */
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: transparent;
+}
+
+#file-upload {
+  border-left: 3px solid rgb(234, 88, 12);
+}
+
+.upper-section {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.language-selector {
+  /* float: left; */
+  display: inline-block;
+  width: 100%;
+}
+
+.nav-bar {
+  float: left;
+  display: block;
+}
+
+.breaker {
+  color: red;
+  border: 2px solid rgb(234, 88, 12);
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.input-lang-selector {
+  float: left;
+}
+
+.input-lang-selector a {
+  margin: auto;
+}
+
+.output-lang-selector {
+  float: right;
+}
+
+.output-lang-selector a {
+  margin: auto;
+}
+
